@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ButterknifApplication</string>
+    <string name="lbl_blank">...........</string>
+    <string name="lbl_custom_swipe_refresh">Custom Swipe Refresh</string>
+</resources>

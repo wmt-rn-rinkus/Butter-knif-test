@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    cardBackgroundColor="#E6E6E6"
+    cardCornerRadius="15dp"
+    cardElevation="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_100dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/empImage"
+            android:layout_width="@dimen/dimen_100dp"
+            android:layout_height="@dimen/dimen_100dp"
+            android:layout_alignParentEnd="true"
+            android:padding="@dimen/dimen_10dp"
+            android:layout_alignParentRight="true" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/empFullname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/empImage"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_20sp"
+                android:layout_marginStart="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+
+                android:layout_marginLeft="@dimen/dimen_10dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/empEmail"
+                android:layout_width="wrap_content"
+                android:layout_toLeftOf="@id/empImage"
+                android:layout_below="@id/empFullname"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_10dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/dimen_10dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/empNumber"
+                android:layout_width="wrap_content"
+                android:layout_toLeftOf="@id/empImage"
+                android:layout_below="@id/empEmail"
+                android:layout_marginStart="@dimen/dimen_10dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_toStartOf="@id/empImage"
+                android:layout_marginLeft="@dimen/dimen_10dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
